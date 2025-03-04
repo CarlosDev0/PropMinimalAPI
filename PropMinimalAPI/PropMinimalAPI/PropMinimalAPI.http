@@ -1,0 +1,30 @@
+@PropMinimalAPI_HostAddress = http://localhost:5244
+###
+GET {{PropMinimalAPI_HostAddress}}/saludoGet/
+Accept: application/json
+
+###
+POST {{PropMinimalAPI_HostAddress}}/saludoPost/
+Accept: application/json
+
+###
+GET {{PropMinimalAPI_HostAddress}}/saludoOk/
+Accept: application/json
+
+###
+
+PUT {{PropMinimalAPI_HostAddress}}/saludoNotFound/
+Accept: application/json
+
+###
+DELETE {{PropMinimalAPI_HostAddress}}/saludoBadRquest/
+Accept: application/json
+###
+
+GET {{PropMinimalAPI_HostAddress}}/saludoWithParam/25
+Accept: application/json
+###
+
+GET {{PropMinimalAPI_HostAddress}}/saludoWithParamType/25
+Accept: application/json
+###
